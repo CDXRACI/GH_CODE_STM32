@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "DEBUG=1",
+                "STM32F411RE"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortrx-m4",
+                "-mthumb",
+                "-mfloat-abi=hard"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

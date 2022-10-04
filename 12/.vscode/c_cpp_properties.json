@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "~/Downloads/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortrx-m4",
+                "-mthumb",
+                "-mfloat-abi=hard"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

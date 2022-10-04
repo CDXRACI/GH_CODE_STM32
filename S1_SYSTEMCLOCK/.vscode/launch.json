@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MCU",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "./build/S1_SYSTEMCLOCK.elf",
+            "cwd": "${workspaceRoot}",
+            "servertype": "openocd",
+            "device": "STM32F411RE",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ]
+        },
+    ]
+}
+

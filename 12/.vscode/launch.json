@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MCU",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "./build/12.elf",
+            "cwd": "${workspaceRoot}",
+            "servertype": "openocd",
+            "device": "STM32F411RE",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ]
+        },
+    ]
+}
